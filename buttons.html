@@ -1,0 +1,60 @@
+<style>
+  /*
+        css syntax rules
+       - we have css selector ex button we wrote above which tells a computer the elements we are targeting as there we are targeting buttons.
+       -we also have css property like background-color,border,color and others  which tell computer what we are changing.
+       -we also have css value like we set background-color to red ad the red is the value.
+       -we use . to tag a class we named like .subscribe-button
+        */
+    .subscribe-button {
+      
+        background-color: rgb(202, 3, 3);
+        /*-this background  color will change the bacground of the button to red
+        but we use another syntax rgb(res,green,blue) to set thecolor wwe want and 202 is amount of red we have,3 is the amount of green and also 3 is the amount of blue we have */
+        color: white;
+        /* thus changes the text color inside the button to white */
+        border: none;
+        /* this remove the borders of the button */
+        height: 40px;
+        /* increasing the height of the button to 40 px */
+        width: 110px;
+        /* increasing the widht of button to 110 px */
+        border-radius: 3px;
+        /* this changes the border of the button we have to 2px */
+        cursor: pointer;
+        /* when your move your mmouse and you to button the cursor will look like the hand */
+        margin-right: 8px;/* add spaces to the right of the button */
+    }
+
+    .join-button{
+background-color: white;
+color:rgb(35, 104, 252);
+height: 40px;
+border-color: rgb(35, 104, 250);
+width:62px;
+cursor: pointer;
+border-style: solid; /* border looks the same as that blue we set */
+border-width: 1px;
+border-radius: 3px;
+margin-right: 8px;
+    }
+    .tweet-button{
+background-color: rgb(10, 141, 228);
+color:white;
+font-size: 16px;
+font-weight: bolder;
+border: none;
+width: 75px;
+height: 36px;
+border-radius: 20px;
+cursor: pointer;
+    }
+</style>
+<button class="subscribe-button">
+     SUBSCRIBE
+    </button>
+    <button class="join-button">
+        JOIN</button>
+        <button class="tweet-button">
+            Tweet
+        </button>
