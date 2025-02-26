@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    margin-left: 12px;
+}
+.tahoma{
+font-family: tahoma;
+font-weight: bold;
+font-size: 20px;
+background-color: white;
+width: 15%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.deal{
+background-color: white;
+font-weight: bold;
+font-size: 20px;
+font-family: arial;
+width:20%;
+padding-top: 10px;
+padding-top: 10px;
+line-height: 25px;
+}
+.sales{
+color: red;
+font-size: 17px;
+}
+.course{
+background-color: white;
+width:18%;
+font-family: verdana;
+text-align: center;
+}
+.ctitle{
+font-weight: bold;
+font-size: 20px;
+
+}
+.pro{
+margin-top: -20px;
+line-height: 20px;
+}
+.change{
+background-color: whitesmoke;
+padding-bottom: 12px;
+}
+.started{
+background-color: rgb(15, 145, 15);
+font-family: verdana;
+border-radius:9px;
+border-style: none;
+color: white;
+text-align: center;
+padding:10px
+}
+.shopping{
+background-color: white;
+width: 400px;
+height: 30%;
+margin:10px;
+padding-top: 1px;
+}
+.shop{
+background-color:whitesmoke;
+margin-top: -15px;
+
+}
+.bss{
+font-size: 27px;
+font-family: Arial;
+font-weight: bolder;
+margin-left: 12px;
+}
+.apple{
+font-size: 18px;
+margin-top: -12px;
+margin-left: 80px;
+}
+.learn{
+color: rgb(0, 140, 255);
+text-align: center;
+
+}
