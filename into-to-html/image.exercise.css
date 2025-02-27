@@ -1,0 +1,112 @@
+.dog {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 12px;
+}
+
+.dog-square {
+    width: 150px;
+    height: 150px;
+    margin-right: 12px;
+}
+
+.dog-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+.search_box {
+    width: 130px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.search_url {
+    width: 400px;
+    height: 30px;
+    font-size: large;
+    border-radius: 30px;
+}
+
+.linkedin {
+    background-color: aliceblue;
+    width: 420px;
+}
+
+.email {
+    font-size: 18px;
+}
+
+.text_area {
+    width: 370px;
+    height: 25px;
+}
+
+.click {
+    background-color: rgb(249, 240, 255);
+}
+
+.content {
+    font-size: 17px;
+}
+
+.button {
+    font-size: 15px;
+    background-color: blue;
+    width: 200px;
+    border-style: none;
+    border-radius: 30px;
+    padding: 12px;
+    text-align: center;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.image {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    /*  display:inline_block helped me to put my content on the same line and vertical-align :middle put the contetn in the middle*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;   
+}
+.happen{
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.tweet-button{
+    font-size: 18px;
+   background-color:rgb(0, 132, 255);
+    padding:5px;
+    color:white;
+width:100px;
+border-style: none;
+border-radius: 20px;
+display: inline-block;
+vertical-align: middle;
+
+
+}
+.twit{
+   
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.twitt{
+    margin: 30px;
+    background-color: black;
+    width: 550px;
+    height: 70px;
+    padding: 10px;
+
+}

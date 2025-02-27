@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+}
+
+.text-box {
+    background-color: white;
+    width: 200px;
+    margin: 12px;
+
+}
+
+.name {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.space {
+    padding: 3px;
+}
+
+.email {
+    margin-left: 5px;
+
+}
+
+.par-button {
+    background-color: white;
+    width: 300px;
+}
+
+.contact {
+    width: 210px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yes-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.no-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-form{
+    background-color: white;
+    width: 500px;
+    margin: 20px;
+    height:150px;
+}
+.logo{
+    display: block;
+    margin-left: 200px;
+    width:200px;
+}
+.search-url{
+    width:450px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+   border-color: rgb(245, 245, 245);
+   font-size: 17px; 
+}
+.signup{
+    background-color: white;
+    width: 400px;
+    height:200px;
+}
+.signup-form{
+    padding: 15px;
+}
+.f-name{
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    font-size: 17px;
+}
+.l-name{
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    font-size: 17px;
+}
+.signup-button{
+    display: block;
+    margin-top: 10px;
+    width:290px;
+    height: 60px;
+    border-radius: 7px;
+   background-color: rgb(0, 68, 255);
+   border-style: none;
+   font-size: 20px;
+   font-weight: bolder;
+   color: white;
+}
+.eml{
+    display: block;
+    width: 270px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 7px;
+    border-color: whitesmoke;
+    
+    
+}
