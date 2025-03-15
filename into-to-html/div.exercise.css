@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+.red-square{
+    background-color: red;
+    width:100px;
+    height:100px;
+}
+.green-circle{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+   
+}
+.service{
+    width:340px;
+    background-color:white;
+    padding:10px;
+}
+.service-content{
+    width:260px;
+    padding:20px;
+    background-color: white;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.satisfy-paragraph{
+    font-size: 20px;
+}
+.yes,.no{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-right: 10px;   
+    font-size: 17px;
+    width:40px;
+}
+.youtube{
+    background-color: whitesmoke;
+    width:450px;
+    padding:8px;
+    margin: 12px;
+}
+.youtube-section{
+    background-color: black;
+    color:white;
+    padding:8px;
+}
+.cat-section{
+    background-color: white;
+    width:220px;
+    padding:10px;
+}
+.cat{
+    background-color: white;
+    width: 200px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+.cat-image{
+    width:200px;
+}
+.oliver{
+    margin-top: -6px;
+    font-size:18px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.mutual{
+    font-size:16px;
+    margin-top: -9px;
+}
+.add{
+    width:100px;
+    background-color: rgb(69, 69, 247);
+    border-style: none;
+    padding:5px;
+    color:white;
+}
+.cat-group{
+    background-color: white;
+    width:700px;
+    padding:12px;
+    margin:30px;
+
+}
+.cat1,.cat2,.cat3{
+    background-color: white;
+    width: 200px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-right: 10px;
+    display: inline-block;
+}

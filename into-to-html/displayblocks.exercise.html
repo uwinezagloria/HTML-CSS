@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display block and inline practice</title>
     <link rel="stylesheet" href="displayblocks.exercise.css">
+    <style>
+.update{
+    background-color: whitesmoke;
+    height:150px;
+}
+.search-button,.feeling-button{
+    margin:20px;
+    background-color: rgba(245, 245, 245, 0.664);
+    font-size: 16px;
+    border-style: solid;
+    height:40px;
+    border-color: grey;
+}
+    </style>
 
 </head>
 
@@ -28,7 +42,12 @@
     <!-- Download google logo and create the google.com search form-->
     <div class="search-form">
         <img class="logo" src="google logo.png">
-        <input class="search-url" type="text" placeholder="Search Google or type a URL">
+        <div class="update">
+            <input class="search-url" type="text" placeholder="Search Google or type a URL">
+            <button class="search-button">Google Search</button>
+            <button class="feeling-button">I'm Feeling Lucky</button>
+        </div>
+        
     </div>
     <!-- create sign up from-->
     <div class="signup">
