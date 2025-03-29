@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid exercise</title>
+    <link rel="stylesheet" href="grid.exercise.css">
+</head>
+
+<body>
+    <div style="display:grid;grid-template-columns: 200px 75px;">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightpink;">75px</div>
+    </div>
+    <div style="margin-top:30px;display: grid;grid-template-columns: 50px 1fr 75px;">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+    </div>
+    <div style="
+    background-color: white;
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    ">
+        <div style="background-color: lightpink;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightpink;">col3</div>
+        <div style="background-color: lightpink;">col4</div>
+        <div style="background-color: lightpink;">col1</div>
+        <div style="background-color: lightpink;">col2</div>
+        <div style="background-color: lightpink;">col3</div>
+        <div style="background-color: lightpink;">col4</div>
+    </div>
+    <div class="cat-grid">
+
+<div class="cat">
+    <div class="cat-info">
+        <img  class="cat-image"src="cat1.jpg">
+        <h1>Oliver</h1>
+    </div>
+    <div class="detail-grid">
+        <div class="cat-profile">
+            <img  class="dog" src="images.jpg">
+        </div>
+        <div class="cat-friends">
+    <p>
+        2 matual Friends
+    </p>
+    </div>
+    </div>
+    
+<div class="add-friend">
+<button class="add-button" >Add Friend</button>
+</div>
+
+</div>
+<!---->
+<div class="cat">
+    <div class="cat-info">
+        <img  class="cat-image"src="cat2.jpg">
+        <h1>Mimi</h1>
+    </div>
+    <div class="detail-grid">
+        <div class="cat-profile">
+            <img  class="dog" src="images.jpg">
+        </div>
+        <div class="cat-friends">
+    <p>
+        3 matual Friends
+    </p>
+    </div>
+    </div>
+    
+<div class="add-friend">
+<button class="add-button" >Add Friend</button>
+</div> 
+</div>
+<!---->
+<div class="cat">
+    <div class="cat-info">
+        <img  class="cat-image"src="cat3.jpg">
+        <h1>Rex</h1>
+    </div>
+    <div class="detail-grid">
+        <div class="cat-profile">
+            <img  class="dog" src="images.jpg">
+        </div>
+        <div class="cat-friends">
+    <p>
+        4 matual Friends
+    </p>
+    </div>
+    </div>
+    
+<div class="add-friend">
+<button class="add-button" >Add Friend</button>
+</div> 
+</div>
+   
+</body>
+</html>
