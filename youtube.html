@@ -9,93 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <style>
-        p {
-            font-family: roboto, Arial;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        .search_bar {
-            font-size: 12px;
-            display: block;
-
-        }
-
-        .thumbnail {
-            width: 100%;
-            /*
-display: block; 
-takes all the width of the line .it fits the line without other content
-    object-fit: cover;
-      as my image have 2 people when i set object position to right 
-    when i also set height i will see only the person who is o
-    n right and even when i set to left i will see on the interface only person on the left
-    object-position:bottom;
-    border-width: 2px;
-    border-color: brown;
-    border-style: solid;
-*/
-        }
-        .video-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 15px;
-            row-gap: 40px;
-        }
-
-        
-
-        .channel-picture {
-            display: inline-block;
-            width: 50px;
-            vertical-align: top;
-        }
-
-        .video-info {
-            display: inline-block;
-            width: 200px;
-        }
-
-        /* ifr takes the widht of the remaining */
-        .video-info-grid {
-            display: grid;
-            grid-template-columns: 50px 1fr;
-
-        }
-
-        .profile-picture {
-            width: 40px;
-            border-radius: 50px;
-        }
-
-        .video-title {
-            margin-top: 0;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 20px;
-            margin-bottom: 12px;
-        }
-
-        .thumbnail-row {
-            margin-bottom: 12px;
-            color: rgb(96, 96, 96);
-        }
-
-        .video-author,
-        .video-stats {
-            font-size: 12px;
-
-        }
-
-        .video-author {
-            margin-bottom: 4px;
-        }
-    </style>
+   <link rel="stylesheet" href="styles/general.css">
+   <link rel="stylesheet" href="styles/video.css">
+   <link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
-    <input class="search_bar" type="text" placeholder="Search">
+    <div class="header">
+        <div class="left-section">left section</div>
+        <div class="middle-section">
+
+            <input class="search_bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">right section</div>
+    </div>
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">

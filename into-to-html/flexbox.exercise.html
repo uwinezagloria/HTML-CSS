@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox exercises</title>
+</head>
+<body>
+  <!-- flexbox items with width 200px and 75px-->
+    <div style="display:flex;
+    flex-direction: row;">
+      <div style="width:200px;background-color: lightblue;">200 px</div>
+      <div style="width: 75px;background-color: lightpink;">75px</div>
+    </div>
+     <!-- flexbox items with width 50px |remaining space |75px-->
+     <div style="display:flex;
+     flex-direction: row; margin-top: 30px;">
+       <div style="width:50px;background-color: lightblue;">item 1</div>
+       <div style="flex:1;background-color: lightpink;">item 2</div>
+       <div style="width:75px;background-color: lightblue;">item 3</div>
+     </div>
+     <!-- flexbox  with 4items,spread evently across the pages -->
+     <div style="display:flex;
+     flex-direction: row; margin-top: 30px;
+     justify-content: space-between;">
+       <div style="background-color:lightblue;">item 1</div>
+       <div style="background-color: lightpink;">item 2</div>
+       <div style="background-color: lightblue;">item 3</div>
+       <div style="background-color: lightpink;">item 4</div>
+     </div>
+     <!--flexbox with 2 items and height of 50px and a grey border-->
+     <div style="
+     margin-top: 30px;
+     height:50px;
+     display: flex;
+     flex-direction: row;
+     border-width: 1px;
+     border-style: solid;
+     border-color: grey;
+     justify-content: space-between;
+     align-items: center;">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+     </div>
+     <!--challenge exercises-->
+     <div style="background-color: white; width:300px;margin-top: 30px;border-style: solid;
+      border-color:rgba(245, 245, 245, 0.432);border-width: 1px;">
+      <div style="background-color:white;display:flex;
+      flex-direction: row;justify-content: space-between;
+      align-items: center;
+      padding:10px;">
+      <div> <p style="font-size: 20px;">Home</p></div>
+     <div><button style="font-weight: bolder;color: white;
+      background-color: rgb(25, 82, 240);
+      border-radius: 20px;
+      border-style: none;height:25px;width:40px">14</button></div>
+      </div>
+      <div style="display:flex;
+      flex-direction: row;justify-content: space-between;
+      align-items: center;
+      padding:10px;">
+      <div> <p style="font-size: 20px;">Notifications</p></div>
+     <div><button style="font-weight: bolder;color: white;
+      background-color: rgb(25, 82, 240);
+      border-radius: 20px;
+      border-style: none;height:25px;width:30px">3</button></div>
+      </div>
+      <div style="display:flex;
+      flex-direction: row;justify-content: space-between;
+      align-items: center;
+      padding:10px;">
+      <div> <p style="font-size: 20px;">Messages</p></div>
+     <div><button style="font-weight: bolder;color: white;
+      background-color: rgb(25, 82, 240);
+      border-radius: 20px;
+      border-style: none;height:25px;width:30px">5</button></div>
+      </div>
+     </div>
+     <!--another challenge-->
+     <div style="background-color: white;border-style: solid;border-width: 1px;margin-left: 20px;align-items: center; border-color: grey;width: 400px;padding: 10px;">
+      <div style="display: flex;flex-direction: row;justify-content: space-between; ">
+          <div class="cat-photo">
+              <img style=" width: 80px;
+              height: 70px;
+              border-radius: 40px;" src="cat1.jpg">
+          </div>
+          <div style="
+    width:200px;">
+              <h1 style="line-height: 1;">Oliver</h1>
+              <p style="line-height: 1;">
+                  the cat
+              </p>
+              <p style="line-height: 1;">
+                  Popular
+              </p>
+          </div>
+          <div >
+              <button style="color: white;
+              background-color: #0066ff;
+              font-size: 18px;
+              border-style: none;
+              width: 80px;
+              padding: 10px;
+              height: 50px;
+              border-radius: 5px;">Follow</button>
+          </div>
+      </div>
+      <div style="display: flex;flex-direction: row;justify-content: space-between;" >
+          <div >
+              <img style=" width: 80px;
+              height: 70px;
+              border-radius: 40px;" src="cat2.jpg">
+          </div>
+          <div style="
+    width:200px;">
+              <h1>Mimi</h1>
+              <p>Sleepy cat</p>
+              <p>Popular</p>
+          </div>
+          <div>
+              <button style="color: white;
+              background-color: #0066ff;
+              font-size: 18px;
+              border-style: none;
+              width: 80px;
+              padding: 10px;
+              height: 50px;
+              border-radius: 5px;">Follow</button>
+          </div>
+      </div>
+      <div style="display: flex;flex-direction: row;justify-content: space-between;">
+          <div>
+              <img style=" width: 80px;
+              height: 70px;
+              border-radius: 40px;" src="cat3.jpg">
+          </div>
+          <div style="
+    width:200px;">
+              <h1>Rex</h1>
+              <p>Happy Bullog</p>
+              <p>Popular</p>
+          </div>
+          <div>
+              <button style="color: white;
+              background-color: #0066ff;
+              font-size: 18px;
+              border-style: none;
+              width: 80px;
+              padding: 10px;
+              height: 50px;
+              border-radius: 5px;
+          ">Follow</button>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
