@@ -5,17 +5,93 @@
     justify-content: space-between;
 }
 .left-section{
-    background-color: lightblue;
-    width:150px;
+   
+    display: flex;
+    align-items: center;
+   
 }
 .middle-section{
-    background-color: lightpink;
+  
     flex:1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
 }
 .right-section{
-    background-color: lightblue;
-    width:200px;
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    /*to prevent shrinking */
+    flex-shrink: 0;
+}
+.hamburger-menu{
+    height:20px;
+     margin-left: 24px;
+     margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.search-button{
+    height: 40px;
+    width:66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1px; /* pulls to left*/
+    margin-right: 10px;
+}
+.search-voice-button{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240,240,240);
+}
+.voice-search-icon{
+    height:24px;
+    margin-top: 4px;
+   
+}
+.search_bar{
+    flex:1;
+    height: 36px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(192,192,192);
+    border-radius: 2px;
+    /* box shadow inside we use inset*/
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+    /* to shrink we set width=0 */
+    width: 0;
+}
+/* targetting placeholder*/
+.search_bar::placeholder{
+    font-family: roboto,Arial;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.search-icon{
+    height:25px;
+    margin-top: 4px;
+}
+.upload-icon{
+    height: 24px;
+}
+.youtube-apps-icon{
+    height: 24px;
+
+}
+.notifications-icon{
+    height: 24px;
+}
+.current-user-picture{
+    height: 32px;
+    border-radius: 16px;
 }
