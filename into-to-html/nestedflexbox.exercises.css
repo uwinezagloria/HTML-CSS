@@ -1,6 +1,6 @@
 .section-1{
     background-color: white;
-    width:500px;
+    width:550px;
     padding:20px;
     margin-top: 30px;
 }
@@ -49,4 +49,66 @@ h1{
 }
 .content-section{
 display: block;
+}
+.section1{
+   display: flex;
+   flex-direction: row;
+   
+}
+.paragraph1{
+    font-size: 21px;
+    width:330px;
+    margin:0;
+}
+.paragraph{
+    font-size: 21px;
+    width:250px;
+    margin:0;
+}
+.paragraph2{
+    font-size: 21px;
+    width:400px;
+    margin:0;
+}
+.unique{
+    margin:0;
+    font-size: 21px;
+    color:grey;
+    font-weight: bolder;
+}
+.empt-div{
+    background-color: rgb(161, 160, 160);
+    width:120px;
+    margin-right: 25px;
+    border-end-start-radius: 30px;
+    border-top-left-radius: 30px;
+   
+}
+.image{
+    margin-right:10px;
+
+}
+
+.cat-img{
+    width:80px;
+height:70px;
+border-radius: 40px;
+}
+.section2{
+    width:450px;
+    height:130px;
+    margin-top: 20px;
+   margin-left: 90px;
+    border-width: 2px;
+    border-color: rgba(245, 243, 243, 0.849);
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 30px;
+   
+}
+.sector{
+    margin-top: 15px;
+    margin-left: -10px;
 }
