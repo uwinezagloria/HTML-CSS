@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+    Padding:20px;
+}
+div{
+  border-radius: 10px;
+  border-color:black;
+  border-style: solid;
+ width:300px;
+ padding:30px;
+  
+}
+#fname,#lname,#mail{
+    display: block;
+margin-bottom: 4px;
+margin-top: 3px;
+}
+button{
+padding:10px;
+margin-top: 20px;
+}

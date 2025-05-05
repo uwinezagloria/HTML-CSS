@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <form onsubmit="validation(event)">
+    <div>
+        <label for="name">First Name</label>
+        <input type="text" name="fname" id="fname">
+        <label for="name">Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <label for="mail">Email</label>
+        <input type="text" name="mail" id="mail">
+      <button type="submit" onclick="savingLocalStorage()">Submit</button>
+      <button onclick="updateData()">Update</button>
+      <button type="reset">Reset</button>
+      <button>Delete</button>
+    </div>
+   </form> 
+   <script src="form.js"></script>
+</body>
+</html>

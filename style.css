@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(3, 29, 41);
+  
+}
+h1{
+    color:white;
+    font-size: 22px;
+font-weight: bolder;
+margin-left: 20px;
+margin-top: 20px;
+}
+.container{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+   
+    padding:10px;
+    width:350px;
+   margin-left: 40%;
+   margin-top: 120px;
+ padding-bottom: 20px;
+   
+}
+ 
+
+.list-items{
+    margin-left: 20px;
+    font-size: 19px;
+    background-color: white;
+    width:310px;
+    height:30px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+text-align: center;
+}
